@@ -2,10 +2,24 @@ import React, { useState } from 'react';
 import { Globe, Heart, CalendarCheck, Gift } from 'lucide-react';
 import './WebsiteShowcase.css';
 
+const FAAB_URL = 'https://thefaabstory.vercel.app/';
+
 const previewTabs = [
-  { id: 'story', label: 'Our Story', text: 'How a chance meeting in Victoria Island turned into forever.' },
-  { id: 'schedule', label: 'Weekend Schedule', text: 'Traditional Ceremony · Sunset Vows · Grand Ballroom Gala' },
-  { id: 'rsvp', label: 'Live RSVP', text: 'Digital RSVP portal with real-time guest diet & music requests.' }
+  {
+    id: 'story',
+    label: 'Our Story',
+    text: 'It started in the Team Radiant fellowship group chat, where Abisoye was team lead and Favour a member. From Team Radiant to forever, their next chapter begins November 14th.'
+  },
+  {
+    id: 'details',
+    label: 'Wedding Details',
+    text: 'Save the Date: November 14, 2026 at 10AM, Powelife Christian Faith International, 153 Shibiri Road, Ojo, Lagos.'
+  },
+  {
+    id: 'registry',
+    label: 'Gift Us',
+    text: 'Help set our new home: a curated registry of gifts as Abisoye & Favour build their life together.'
+  }
 ];
 
 export function WebsiteShowcase({ onAddWebsite }) {
@@ -19,10 +33,17 @@ export function WebsiteShowcase({ onAddWebsite }) {
           <h2>Their love story deserves a place of its own.</h2>
           <p>
             <span>
-              As an add-on to any wedding package, we create a bespoke wedding website for you and your partner: a personal space to share your story, schedule, venue, RSVP, and gift registry.
-            </span>{' '}
-            <em>The Faab Story</em>
-            <span> is one example of where a beautiful beginning can live.</span>
+              As an add-on to any wedding package, we create a bespoke wedding website for you and your partner: a personal space to share your story, schedule, venue, RSVP, and gift registry.{' '}
+            </span>
+            <a
+              className="website-example-link"
+              href={FAAB_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <em>theFAABstory</em>
+            </a>
+            <span> for Abisoye &amp; Favour is one example of where a beautiful beginning can live.</span>
           </p>
 
           <div className="website-features">
@@ -53,13 +74,20 @@ export function WebsiteShowcase({ onAddWebsite }) {
 
         <div
           className="browser reveal delay-1"
-          aria-label="Interactive preview of The Faab Story bespoke wedding website"
+          aria-label="Interactive preview of theFAABstory, the bespoke wedding website we built for Abisoye and Favour"
         >
           <div className="browser-bar">
             <span className="browser-dot" />
             <span className="browser-dot" />
             <span className="browser-dot" />
-            <span className="browser-address">thefaabstory.com</span>
+            <a
+              className="browser-address"
+              href={FAAB_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              thefaabstory.vercel.app
+            </a>
           </div>
 
           <div className="browser-screen">
@@ -76,8 +104,8 @@ export function WebsiteShowcase({ onAddWebsite }) {
               ))}
             </div>
 
-            <p className="browser-screen-title">The Faab Story</p>
-            <span className="browser-screen-sub">Lagos · December 2025</span>
+            <p className="browser-screen-title">theFAABstory</p>
+            <span className="browser-screen-sub">Abisoye &amp; Favour · November 14, 2026</span>
 
             <div className="browser-content-box">
               <p>{currentTab.text}</p>

@@ -2,19 +2,3 @@
 > toshevents@1.0.0 dev
 > vite
 
-Port 5173 is in use, trying another one...
-
-  [32m[1mVITE[22m v6.4.5[39m  [2mready in [0m[1m3552[22m[2m[0m ms[22m
-
-  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5174[22m/[39m
-  [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.0.178:[1m5174[22m/[39m
-[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
-[2m10:27:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Portfolio/Portfolio.css[22m
-[2m10:27:58[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Portfolio/Portfolio.jsx[22m
-[2m10:27:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Portfolio/Portfolio.jsx[22m
-[2m10:28:54[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Testimonials/Testimonials.jsx[22m
-[2m10:28:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/WebsiteShowcase/WebsiteShowcase.jsx[22m
-[2m10:28:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Intro/Intro.jsx[22m
-[2m10:35:28[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Booking/Booking.jsx[22m
-[2m10:35:30[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Booking/Booking.jsx[22m
-[2m10:35:31[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Booking/Booking.jsx[22m

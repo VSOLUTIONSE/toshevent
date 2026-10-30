@@ -69,6 +69,19 @@
   color: var(--petal-deep);
 }
 
+.website-example-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--petal-deep);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 4px;
+  transition: color 200ms ease;
+}
+
+.website-example-link:hover {
+  color: var(--petal-deep);
+}
+
 /* Browser Mockup */
 .browser {
   background: var(--charcoal);
@@ -126,6 +139,14 @@
   font-size: 10px;
   letter-spacing: 0.04em;
   font-family: monospace;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 200ms ease, color 200ms ease;
+}
+
+.browser-address:hover {
+  background: rgba(251, 246, 244, 0.2);
+  color: rgba(251, 246, 244, 0.95);
 }
 
 .browser-screen {

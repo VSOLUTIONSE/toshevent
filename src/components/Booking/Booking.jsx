@@ -108,7 +108,7 @@ export function Booking({ prefilledType, onResetPrefill }) {
         <div className="booking-buttons reveal">
           <a
             className="button outline whatsapp-link"
-            href={`https://wa.me/2348120000000?text=${whatsappMessage}`}
+            href={`https://wa.me/2348033730336?text=${whatsappMessage}`}
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Chat with us on WhatsApp"
@@ -186,7 +186,7 @@ export function Booking({ prefilledType, onResetPrefill }) {
                 type="tel"
                 value={formData.phone}
                 onChange={handleChange}
-                placeholder="+234 800 000 0000"
+                placeholder="+234 803 373 0336"
                 autoComplete="tel"
                 aria-invalid={!!errors.phone}
                 aria-describedby={errors.phone ? 'error-phone' : undefined}

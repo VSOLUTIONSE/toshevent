@@ -5,7 +5,7 @@ export function FloatingWhatsApp() {
   return (
     <a
       className="floating-whatsapp"
-      href="https://wa.me/2348000000000?text=Hello%20Toshevents!%20I'd%20like%20to%20inquire%20about%20event%20planning."
+      href="https://wa.me/2348033730336?text=Hello%20Toshevents!%20I'd%20like%20to%20inquire%20about%20event%20planning."
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat directly on WhatsApp"
