@@ -100,7 +100,7 @@ export function Booking({ prefilledType, onResetPrefill }) {
   return (
     <section className="section booking" id="contact">
       <div className="booking-inner">
-        <h2 className="reveal">Reserve Your Atelier Consultation.</h2>
+        <h2 className="reveal">Book an appointment with us</h2>
         <p className="booking-sub reveal">
           We accept a strictly limited number of commissions each season to ensure absolute devotion to every detail. Tell us about your celebration.
         </p>
@@ -111,16 +111,16 @@ export function Booking({ prefilledType, onResetPrefill }) {
             href={`https://wa.me/2348120000000?text=${whatsappMessage}`}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Direct consultation on WhatsApp Concierge"
+            aria-label="Chat with us on WhatsApp"
           >
             <MessageCircle size={16} />
-            <span>Direct WhatsApp Concierge</span>
+            <span>Chat us on whatsapp</span>
           </a>
           <a
             className="button gold"
             href="mailto:concierge@toshevents.com?subject=Private%20Event%20Commission%20Inquiry"
           >
-            <span>Email Direct Concierge</span>
+            <span>Send Us an email</span>
           </a>
         </div>
 

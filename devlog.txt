@@ -15,3 +15,6 @@ Port 5173 is in use, trying another one...
 [2m10:28:54[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Testimonials/Testimonials.jsx[22m
 [2m10:28:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/WebsiteShowcase/WebsiteShowcase.jsx[22m
 [2m10:28:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Intro/Intro.jsx[22m
+[2m10:35:28[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Booking/Booking.jsx[22m
+[2m10:35:30[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Booking/Booking.jsx[22m
+[2m10:35:31[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Booking/Booking.jsx[22m
