@@ -1,0 +1,227 @@
+.booking {
+  position: relative;
+  color: var(--mist);
+  background: linear-gradient(rgba(26, 22, 20, 0.9), rgba(26, 22, 20, 0.84)),
+              url('../../../assests/toshevents_interior setting.jpg')
+              center/cover no-repeat;
+  border-top-left-radius: var(--radius-lg);
+  border-top-right-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.booking-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.booking h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(44px, 5.8vw, 84px);
+  line-height: 0.96;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+}
+
+.booking-sub {
+  margin: 22px auto 36px;
+  max-width: 580px;
+  color: rgba(250, 246, 244, 0.82);
+  line-height: 1.8;
+  font-size: clamp(14px, 1.2vw, 17px);
+  font-family: var(--font-sans);
+}
+
+.booking-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.whatsapp-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.booking-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px 32px;
+  margin: 64px auto 0;
+  padding: 44px 48px;
+  text-align: left;
+  background: rgba(250, 246, 244, 0.06);
+  border: 1px solid var(--line-dark);
+  border-radius: var(--radius-md);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.3);
+  transition: border-color 260ms ease;
+}
+
+.booking-form:focus-within {
+  border-color: rgba(232, 195, 192, 0.4);
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+}
+
+.form-field.full {
+  grid-column: 1 / -1;
+}
+
+.form-field label {
+  color: var(--petal);
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.form-field input,
+.form-field select,
+.form-field textarea {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid rgba(250, 246, 244, 0.35);
+  outline: 0;
+  padding: 12px 0;
+  background: transparent;
+  color: var(--mist);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  transition: border-color 220ms ease;
+  border-radius: 0;
+}
+
+.form-field input:focus,
+.form-field select:focus,
+.form-field textarea:focus {
+  border-bottom-color: var(--petal);
+}
+
+.form-field input:focus-visible,
+.form-field select:focus-visible,
+.form-field textarea:focus-visible {
+  outline: 2px solid var(--petal);
+  outline-offset: 4px;
+}
+
+.form-field input::placeholder,
+.form-field textarea::placeholder {
+  color: rgba(250, 246, 244, 0.55);
+}
+
+.form-field select {
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23E8C3C0' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 4px center;
+}
+
+.form-field select option {
+  background-color: var(--charcoal);
+  color: var(--mist);
+  padding: 10px;
+}
+
+.form-field textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.field-error {
+  font-size: 12px;
+  color: #FFB3BA;
+  margin-top: 4px;
+}
+
+.form-footer {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  border-top: 1px solid rgba(250, 246, 244, 0.1);
+  padding-top: 24px;
+  margin-top: 8px;
+}
+
+.form-submit {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-note {
+  font-size: 11px;
+  color: rgba(250, 246, 244, 0.72);
+  letter-spacing: 0.04em;
+}
+
+/* Luxury Dignified Confirmation Card */
+.form-success {
+  padding: 48px 36px;
+  text-align: center;
+  background: rgba(250, 246, 244, 0.1);
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(232, 195, 192, 0.4);
+  animation: fadeIn 350ms ease;
+}
+
+.form-success-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: var(--petal-dark);
+  color: var(--mist);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.form-success h3 {
+  font-family: var(--font-serif);
+  font-size: clamp(30px, 3.4vw, 42px);
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: var(--mist);
+}
+
+.form-success p {
+  color: rgba(250, 246, 244, 0.88);
+  font-size: 15px;
+  line-height: 1.8;
+  max-width: 520px;
+  margin: 0 auto 28px;
+}
+
+@media (max-width: 768px) {
+  .booking {
+    border-top-left-radius: var(--radius-md);
+    border-top-right-radius: var(--radius-md);
+  }
+  .booking-form {
+    grid-template-columns: 1fr;
+    padding: 28px 20px;
+    gap: 20px;
+  }
+  .form-field.full,
+  .form-footer {
+    grid-column: auto;
+  }
+  .form-submit {
+    width: 100%;
+  }
+}

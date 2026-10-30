@@ -1,0 +1,24 @@
+:root {
+  --rosewater: #F7E9E8;
+  --petal: #E8C3C0;
+  --petal-deep: #C99791;
+  --champagne: #EFE2D0;
+  --mist: #FBF6F4;
+  --charcoal: #26211F;
+  --charcoal-soft: #38312E;
+  --taupe: #7C6D68;
+  --line: rgba(38, 33, 31, 0.13);
+  --glow: rgba(201, 151, 145, 0.28);
+  --white: #FFFFFF;
+  
+  /* Font Family */
+  --font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Transitions & Shadows */
+  --ease-out-cubic: cubic-bezier(0.23, 1, 0.32, 1);
+  --shadow-sm: 0 4px 12px rgba(38, 33, 31, 0.05);
+  --shadow-md: 0 16px 34px rgba(38, 33, 31, 0.1);
+  --shadow-lg: 0 28px 70px rgba(38, 33, 31, 0.14);
+  --shadow-nav: 0 18px 48px rgba(38, 33, 31, 0.08);
+}
+
